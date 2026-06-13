@@ -1,0 +1,65 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.2,
+  "temperature_modifier": "none",
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 658179,
+    "water_color": 921102,
+    "water_fog_color": 263172,
+    "sky_color": 6513151,
+    "mood_sound": {
+      "sound": "minecraft:ambient.underwater.loop",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
+  "creature_spawn_probability": 0.1,
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:drowned",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:elder_guardian",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "carvers": []
+}

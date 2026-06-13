@@ -1,0 +1,168 @@
+{
+  "type": "subnautica:ocean",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "subnautica:ocean",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "subnautica:safe_shallows",
+          "parameters": {
+            "temperature": [-1.0, -0.6],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, -0.8],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.0, 0.15],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:kelp_forest",
+          "parameters": {
+            "temperature": [-0.6, -0.2],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, -0.6],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.15, 0.35],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:blood_kelp",
+          "parameters": {
+            "temperature": [-0.2, 0.2],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, -0.4],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.35, 0.55],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:lost_river",
+          "parameters": {
+            "temperature": [0.2, 0.5],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, -0.2],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.55, 0.72],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:inactive_lava",
+          "parameters": {
+            "temperature": [0.5, 0.75],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, 0.0],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.72, 0.85],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:lava_zones",
+          "parameters": {
+            "temperature": [0.75, 0.9],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.85, 0.95],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:primary_lava",
+          "parameters": {
+            "temperature": [0.9, 1.0],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.95, 1.0],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:open_ocean",
+          "parameters": {
+            "temperature": [-0.6, 0.2],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-0.8, -0.4],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 1.0],
+            "depth": [0.2, 0.5],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:island_oak",
+          "parameters": {
+            "temperature": [-1.0, -0.7],
+            "humidity": [0.3, 1.0],
+            "continentalness": [0.3, 1.0],
+            "erosion": [-1.0, 0.0],
+            "weirdness": [-1.0, -0.5],
+            "depth": [0.0, 0.05],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:island_spruce",
+          "parameters": {
+            "temperature": [-1.0, -0.7],
+            "humidity": [-1.0, -0.3],
+            "continentalness": [0.3, 1.0],
+            "erosion": [-1.0, 0.0],
+            "weirdness": [0.5, 1.0],
+            "depth": [0.0, 0.05],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:island_cherry",
+          "parameters": {
+            "temperature": [-0.7, -0.3],
+            "humidity": [0.0, 1.0],
+            "continentalness": [0.3, 1.0],
+            "erosion": [-1.0, 0.0],
+            "weirdness": [-0.5, 0.5],
+            "depth": [0.0, 0.05],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:island_jungle",
+          "parameters": {
+            "temperature": [0.0, 0.5],
+            "humidity": [0.3, 1.0],
+            "continentalness": [0.3, 1.0],
+            "erosion": [-1.0, 0.0],
+            "weirdness": [-1.0, 0.0],
+            "depth": [0.0, 0.05],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "subnautica:island_savanna",
+          "parameters": {
+            "temperature": [0.5, 1.0],
+            "humidity": [-1.0, 0.0],
+            "continentalness": [0.3, 1.0],
+            "erosion": [-1.0, 0.0],
+            "weirdness": [0.0, 1.0],
+            "depth": [0.0, 0.05],
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}
