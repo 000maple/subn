@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "min_format": 100,
+    "max_format": 105,
+    "description": [
+      {
+        "text": "Higher Heights Datapack    ",
+        "color": "#6000ff"
+      },
+      {
+        "text": "4064 Height in all Dimensions",
+        "color": "#ff00ff"
+      }
+    ]
+  }
+}
